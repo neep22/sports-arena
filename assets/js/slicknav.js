@@ -1,0 +1,3 @@
+$('#menu').slicknav({
+    label: "Menu"
+});

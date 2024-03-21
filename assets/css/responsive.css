@@ -1,0 +1,389 @@
+
+
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+
+    /* Index Page */
+
+    .slicknav_menu{
+        display: none;
+    }
+
+    a.button.btn.btn-bg {
+        margin: 40px 190px;
+    }
+
+    .single-service {
+        flex-basis: 290px;
+        min-height: 70vh;
+    }
+
+    .single-review {
+        flex-basis: 290px;
+       
+    }
+
+    /* Services Page */
+
+    .services-area .btn.btn-bg {
+        margin: 0 375px;
+    }
+
+    .admin-info h1 {
+        padding-top: 0px;
+    }
+
+    .convenient-btn .btn.btn-bg {
+        margin: 0 154px;
+    }
+
+
+    /* Contact Page */
+    .contact-right {
+        flex-basis: 43%;
+      
+    }
+
+    /* Login Page*/
+    .register-info, .login-info {
+       
+        width: 399px;
+       
+    }
+
+    /* Time slot */
+    .time-info {
+   
+        width: 390px;
+      
+    }
+
+    /* Time slot List */
+    .button {
+      
+        margin: 25px;
+    }
+
+    /* Booking List */
+    .col-lg-12 {
+        width: 93%;
+    }
+
+
+}
+
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+
+    /* index page */
+    .logo a {
+       
+        font-size: 26px;
+        
+    }
+
+    .slicknav_menu{
+        display: none;
+    }
+
+    .menu ul li a {
+    
+        font-size: 16px;
+        
+    }
+
+    .menu ul li {
+        padding: 0 10px;
+      
+    }
+
+    .banner h1 {
+      
+        font-size: 46px;
+        line-height: 54px;
+       
+    }
+
+    a.button.btn.btn-bg {
+        margin: 40px 133px;
+    }
+
+    .section-title span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-caption p {
+   
+        line-height: 24px;
+        font-size: 16px;
+      
+    }
+
+    .services {
+       
+        flex-flow:row wrap ;
+    }
+
+    .single-service {
+    
+        margin-top: 35px;
+    }
+
+    .single-review {
+        flex-basis: 222px;
+      
+    }
+
+    p {
+       
+        font-size: 16px;
+    }
+
+    /*About us */
+
+    .about-banner span, .contact-banner span , .services-banner span  {
+      
+        font-size: 56px;
+        
+    }
+
+    .mission span , .vision span {
+  
+        font-size: 36px;
+       
+    }
+
+    .breadcrumb ul li a {
+       
+        margin-left: -30px;
+    }
+
+    /* Service page */
+
+    .single-service-image a {
+        
+        margin-left: 40px;
+    }
+
+    .services-area .btn.btn-bg {
+        margin: 0 256px;
+    }
+
+    .convenient-btn .btn.btn-bg {
+        margin: 0 102px;
+    }
+
+    /* Contact Page */
+    .single-info h2 {
+        
+        font-size: 16px;
+       
+    }
+
+    .contact-right {
+        flex-basis: 60%;
+       
+    }
+
+    /*Footer */
+    .footer-bottom p {
+      
+        font-size: 16px;
+       
+    }
+
+    /* login page */
+    .register-info, .login-info {
+      
+        width: 315px;
+        
+    }
+
+    /* Time slot */
+    .time-info {
+       
+        width: 306px;
+     
+    }
+    .regi-title span, .login-title span {
+     
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* Time slot list */
+
+    .button {
+        margin: 30px;
+    }
+
+   
+  
+      
+
+}
+
+
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px) {
+
+    .container{
+        width: 350px;
+    }
+
+    /* Index page */
+
+    .slicknav_menu{
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: linear-gradient(105.55deg, #085A6C -6.68%, #269089 43.13%, #7ABC82 96.15%);
+        font-weight: 700;
+    }
+    #menu{
+        display: none;
+        
+    }
+    .user-profile, .user-review, .user-history, .user-logout {
+        margin-right: 40px;
+    }
+
+    .header {
+      
+        padding: 8px;
+    }
+
+    .logo a {
+       
+        margin-left: 60px;
+    }
+
+    .banner h1 {
+    
+        font-size: 32px;
+        margin-top: 180px;
+        line-height: 40px;
+    }
+
+    .banner p {
+        font-size: 17px;
+        line-height: 25px;
+        text-align: justify;
+       
+    }
+
+    a.button.btn.btn-bg {
+        margin: 40px 41px;
+    }
+
+
+
+    /* About Page */
+
+    .about-banner span, .contact-banner span , .services-banner span  {
+      
+        font-size: 42px;
+        
+    }
+
+    .breadcrumb ul {
+      
+        margin: 0 -26px;
+    }
+
+    .vision span , .mission span {
+        font-size: 30px;
+     
+    }
+
+    .vision , .mission{
+        flex-basis: 100%;
+       
+    }
+
+    .single-work span {
+        
+        font-size: 26px;
+       
+    }
+
+    .single-work p {
+      
+        font-size: 16px;
+    }
+
+    .btn {
+        
+        font-size: 16px;
+       
+    }
+
+    .single-work {
+        flex-basis: 100%;
+      
+    }
+
+
+
+    /* Service Page */
+    .service-promotion span {
+        font-size: 29px;
+        line-height: 37px;
+    }
+
+    .service-promotion p {
+        font-size: 17px;
+        line-height: 25px;
+       
+    }
+
+    .convenient-btn .btn.btn-bg {
+        margin: 0 23px;
+    }
+
+
+    /* Footer */
+    .footer {
+       
+        flex-flow:row wrap ;
+    }
+
+    .footer-about, .quick-links {
+     
+        width: 90%;
+    }
+
+    .footer-about p {
+       
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .footer-bottom p {
+        
+        font-size: 16px;
+     
+    }
+
+}
